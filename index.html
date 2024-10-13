@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Botón para comenzar la rutina -->
+    <button id="startButton" onclick="startRoutine()">Comenzar rutina?</button>
+    
+    <!-- Mensajes de "Te amo" -->
+    <div id="message1" class="message"><h1>Te amo</h1></div>
+    <div id="message2" class="message"><h1>Te amo</h1></div>
+    <div id="message3" class="message"><h1>Te amo</h1></div>
+    
+    <!-- Mensaje de "Eres muy bonita" -->
+    <div id="message4" class="message"><h1>Eres muy bonita</h1></div>
+    
+    <!-- Mensaje final con texto personalizado -->
+    <div id="message5" class="message final-message">
+        <h1>Eres la mejor</h1>
+        <h1>Toma captura</h1>
+        <p>Bueno, hoy quise intentar algo diferente para salir un poco de la rutina y porque hay interés. Aunque, bueno, cuando escribo esto acabas de decir que yo acoso a la gente. Quizás te haga sentir acosada; si es así, discúlpame. Tal vez con este mensaje te haga sentir más acosada o tal vez con otras cosas. Como tal, tú sabes que puedes parar esto en cualquier momento; puedes irte si así lo deseas. No es el punto incomodarte, sino hacerte feliz. O al menos ya sabes que le importas mucho a alguien. Pero no sé, como dices, acoso a la gente. Bueno, emmm, vamos a escribir lo que salga.
+
+            El día de hoy, yo te extrañé, te necesité, y creo que mejor no menciono eso, pero el punto es que mi necesidad por ti crece. Por tus cosas, por hablarte, así sea a través de una pantallita. Bueno, no sé cómo estés; es que ya no me cuentas, pero espero que estés bien. Si fue un mal día, espero que no te haya ido tan mal, y si lo fue, quiero que sepas que siempre estaré para ti, así sea fregada, idiota, imbécil. Te quiero de verdad; por eso la rutina, ¿no? Por eso todo esto. Tú fuiste, y lo sabes porque lo repito siempre, lo mejor que me pudo pasar en la vida. Eso no va a cambiar nunca. Tú fuiste la chica que me enamoró de verdad, y una chica genial, muy especial. Eso es lo que eres: la mejor chica del universo y la más bonita, obviamente. Bueno, lo dejo aquí; no quiero incomodarte, y en serio, espero que haya sido un buen día para ti.
+            
+            </p>
+        <button id="nextButton" style="display: none;" onclick="showFinalMessage()">Siguiente</button>
+    </div>
+    
+    <!-- Carrusel de fotos -->
+    <div id="carousel" class="carousel-container">
+        <div class="carousel-images"></div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
